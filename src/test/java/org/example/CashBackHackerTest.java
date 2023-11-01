@@ -29,7 +29,7 @@ public class CashBackHackerTest {
         CashBackHacker hack = new CashBackHacker();
         int amount = 1000;
 
-        int expected = 1000;
+        int expected = 0;
         int actual = hack.remain(amount);
         Assert.assertEquals(expected, actual);
     }
